@@ -17,8 +17,7 @@
 
 # User-specific configurations
 /.idea/*
-/app/*.iml
-*.iml
+
 
 # OS-specific files
 .DS_Store

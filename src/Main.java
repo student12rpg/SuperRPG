@@ -1,6 +1,8 @@
-public class Main {
+import window.Game;
 
-    public static void main(String[] args) {
-	// write your code here
+public class Main {
+    public static void main(String... args) {
+        Game game = new Game("РПГ игра",800,600);
+        game.start();
     }
 }

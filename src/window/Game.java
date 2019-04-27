@@ -31,7 +31,7 @@ public class Game implements Runnable {
 	}
 
 	//!!!ОБНОВЛЕНИЕ
-	private void update() {
+	private void move() {
 
 
 	}
@@ -81,7 +81,7 @@ public class Game implements Runnable {
 			
 			if (delta >= 1) {
 				System.out.println("60fps");
-				update();  //пересчет объектов
+				move();  //пересчет объектов
 				render();  //перерисовка объектов
 				delta--;
 			}

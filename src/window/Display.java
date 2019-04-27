@@ -18,6 +18,10 @@ public class Display {
 		this.height = height;
 		createDisplay();
 	}
+
+	public JFrame getJFrame(){
+		return frame;
+	}
 	
 	private void createDisplay() {
 		frame = new JFrame(title);
